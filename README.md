@@ -18,7 +18,7 @@ You can install `zsh-myservice` in a few simple steps. The installation involves
    First, clone the `zsh-myservice` repository into your custom plugins directory (e.g., `~/.oh-my-zsh/custom/plugins`):
 
    ```sh
-   git clone https://github.com/yourusername/zsh-myservice.git ~/.oh-my-zsh/custom/plugins/zsh-myservice
+   git clone https://github.com/yourusername/zsh-myservice.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-myservice
    ```
 
 2. **Activate the Plugin**
